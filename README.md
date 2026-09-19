@@ -23,7 +23,7 @@ Node.js 20.11 or later. There are no dependencies, so no `npm install` is needed
 ## Quick Start
 
 ```bash
-git clone https://github.com/seokmogu/open-alba-mcp.git
+git clone https://github.com/madebysmg/open-alba-mcp.git
 cd open-alba-mcp
 npm test
 npm run search -- --jobs examples/jobs.sample.json --profile examples/profile.sample.json
