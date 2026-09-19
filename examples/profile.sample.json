@@ -1,0 +1,13 @@
+{
+  "name": "sample-user",
+  "location": {
+    "label": "강남역",
+    "lat": 37.497952,
+    "lng": 127.027619
+  },
+  "maxDistanceKm": 5,
+  "minHourlyPay": 12000,
+  "categories": ["카페/음료", "편의점", "행사/이벤트"],
+  "availableAfter": "2026-05-26T17:00:00+09:00",
+  "availableBefore": "2026-05-27T23:00:00+09:00"
+}

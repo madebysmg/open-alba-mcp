@@ -1,0 +1,18 @@
+{
+  "name": "open-alba-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "open-alba-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "mcp": "node src/index.js mcp",
+    "search": "node src/index.js search",
+    "test": "node test/mcp-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "license": "MIT"
+}

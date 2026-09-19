@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-alba.local/schemas/open-alba-job.schema.json",
+  "title": "Open Alba Job",
+  "type": "object",
+  "required": ["id", "source", "platform", "title", "companyName", "applyUrl"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Local stable job ID."
+    },
+    "source": {
+      "type": "string",
+      "description": "User-owned adapter or import source name."
+    },
+    "platform": {
+      "type": "string",
+      "description": "Original job platform label."
+    },
+    "sourceJobId": {
+      "type": "string",
+      "description": "Original platform job ID when available."
+    },
+    "title": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "lng": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180
+    },
+    "hourlyPay": {
+      "type": "number",
+      "minimum": 0
+    },
+    "startAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "description": {
+      "type": "string"
+    },
+    "applyUrl": {
+      "type": "string",
+      "description": "Original platform URL where the user applies manually."
+    },
+    "collectedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

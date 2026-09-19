@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-alba.local/schemas/open-alba-profile.schema.json",
+  "title": "Open Alba Profile",
+  "type": "object",
+  "required": ["location"],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": {
+        "label": { "type": "string" },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lng": { "type": "number", "minimum": -180, "maximum": 180 }
+      }
+    },
+    "maxDistanceKm": {
+      "type": "number",
+      "minimum": 0
+    },
+    "minHourlyPay": {
+      "type": "number",
+      "minimum": 0
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "availableAfter": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "availableBefore": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

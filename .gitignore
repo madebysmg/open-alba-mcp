@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+*.log
+coverage/
+dist/
+build/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Local job data and profiles (keep only the synthetic samples in examples/)
+data/
+*.local.json
+*.local.csv

@@ -1,0 +1,61 @@
+{
+  "jobs": [
+    {
+      "id": "sample-001",
+      "source": "sample",
+      "platform": "demo-board",
+      "sourceJobId": "demo-001",
+      "title": "강남역 카페 마감 보조",
+      "companyName": "오픈카페 강남",
+      "address": "서울 강남구 강남대로 396",
+      "lat": 37.497952,
+      "lng": 127.027619,
+      "hourlyPay": 12500,
+      "startAt": "2026-05-26T18:00:00+09:00",
+      "endAt": "2026-05-26T22:00:00+09:00",
+      "categories": ["카페/음료"],
+      "tags": ["마감", "단기", "역세권"],
+      "description": "음료 제조 보조와 마감 정리를 돕는 단기 알바입니다.",
+      "applyUrl": "https://example.com/jobs/demo-001",
+      "collectedAt": "2026-05-26T09:00:00+09:00"
+    },
+    {
+      "id": "sample-002",
+      "source": "sample",
+      "platform": "demo-board",
+      "sourceJobId": "demo-002",
+      "title": "역삼 편의점 야간 스태프",
+      "companyName": "모두편의점 역삼",
+      "address": "서울 강남구 테헤란로 152",
+      "lat": 37.500658,
+      "lng": 127.03643,
+      "hourlyPay": 13000,
+      "startAt": "2026-05-26T22:00:00+09:00",
+      "endAt": "2026-05-27T06:00:00+09:00",
+      "categories": ["편의점"],
+      "tags": ["야간", "초단기"],
+      "description": "상품 진열, 계산, 매장 정리 업무입니다.",
+      "applyUrl": "https://example.com/jobs/demo-002",
+      "collectedAt": "2026-05-26T09:05:00+09:00"
+    },
+    {
+      "id": "sample-003",
+      "source": "sample",
+      "platform": "demo-board",
+      "sourceJobId": "demo-003",
+      "title": "코엑스 행사 안내",
+      "companyName": "컨벤션 서포트",
+      "address": "서울 강남구 영동대로 513",
+      "lat": 37.511823,
+      "lng": 127.059159,
+      "hourlyPay": 14000,
+      "startAt": "2026-05-27T10:00:00+09:00",
+      "endAt": "2026-05-27T18:00:00+09:00",
+      "categories": ["행사/이벤트"],
+      "tags": ["행사", "안내", "일급"],
+      "description": "방문객 안내와 입장 동선 정리를 담당합니다.",
+      "applyUrl": "https://example.com/jobs/demo-003",
+      "collectedAt": "2026-05-26T09:10:00+09:00"
+    }
+  ]
+}
